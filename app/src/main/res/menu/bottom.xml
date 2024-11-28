@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/live"
+        android:icon="@drawable/live_tv"
+        android:title="Live TV"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/salat"
+        android:icon="@drawable/salat"
+        android:title="Salat"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/blood"
+        android:icon="@drawable/blood"
+        android:title="Blood"
+        app:showAsAction="always"/>
+
+</menu>

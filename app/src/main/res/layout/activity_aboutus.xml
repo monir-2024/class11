@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#1EFFB300"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Android Apps Develeoper "
+        android:textSize="25sp"
+        android:background="#7CCAC6C6"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Cell-+966558675583 "
+        android:textSize="20sp"
+        android:background="#25FB8C00"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/likee"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Thanks for chosing our apps "
+        android:textSize="20sp"
+        android:background="#2B7CB342"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>
